@@ -35,5 +35,11 @@ setup(
         "Intended Audience :: Developers",
         "Natural Language :: English",
         "Programming Language :: Python"
+    ],
+    install_requires=[
+        "fedex",
+        "pytz",
+        "suds",
+        "requests
     ]
 )
