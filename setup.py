@@ -41,5 +41,11 @@ setup(
         "pytz",
         "suds",
         "requests"
+    ],
+    setup_requires=[
+        "fedex",
+        "pytz",
+        "suds",
+        "requests"
     ]
 )
