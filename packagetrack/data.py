@@ -1,5 +1,5 @@
 from operator import attrgetter
-from requests import ConnectionError
+#from requests import ConnectionError
 from urllib2 import URLError
 
 from .carriers import identify_tracking_number
@@ -34,7 +34,7 @@ class Package(object):
 
         try:
             return self.carrier.track(self.tracking_number)
-        except (ConnectionError, URLError) as err:
+        except (URLError) as err:
             raise TrackingNetworkFailure(err)
 
     @property
