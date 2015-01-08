@@ -16,7 +16,7 @@ def read(fname):
 
 setup(
     name='packagetrack',
-    version=packagetrack.__version__,
+    version='0.4',
     author="Scott Torborg",
     author_email="storborg@mit.edu",
     license="GPL",
