@@ -40,6 +40,6 @@ setup(
         "fedex",
         "pytz",
         "suds",
-        "requests
+        "requests"
     ]
 )
