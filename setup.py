@@ -14,8 +14,6 @@ def read(fname):
         content = f.read()
     return content
 
-import packagetrack
-
 setup(
     name='packagetrack',
     version=packagetrack.__version__,
@@ -35,17 +33,5 @@ setup(
         "Intended Audience :: Developers",
         "Natural Language :: English",
         "Programming Language :: Python"
-    ],
-    install_requires=[
-        "fedex",
-        "pytz",
-        "suds",
-        "requests"
-    ],
-    setup_requires=[
-        "fedex",
-        "pytz",
-        "suds",
-        "requests"
     ]
 )
